@@ -1,0 +1,197 @@
+{
+   "categories":[
+      {
+         "name":"Self Awareness",
+         "type":"mentor",
+         "imageURL":"https://picsum.photos/id/1001/1000",
+         "completed":2,
+         "totalActivities":52,
+         "locked":false,
+         "id":"category-1"
+      },
+      {
+         "name":"Foundation",
+         "type":"curriculum",
+         "imageURL":"https://picsum.photos/id/1002/1000",
+         "completed":0,
+         "totalActivities":10,
+         "locked":true,
+         "id":"category-2"
+      }
+   ],
+   "activities":[
+      {
+         "id":"mt_johndoe-badge-1-activity-0",
+         "intro":{
+            "imageURL":"https://picsum.photos/id/1063/1000",
+            "title":"John Doe",
+            "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci."
+         },
+         "templates":[
+            {
+               "type":"ImageBulletText",
+               "imageURL":"https://picsum.photos/id/1043/1000",
+               "title":"This title has a limit of 40 characters",
+               "bullets":[
+                  "Bullets have 30 character",
+                  "There are 6 bullets max",
+                  "They are for strengths",
+                  "And key points",
+                  "Lorem ipsum dolor sit gravida.",
+                  "Enjoy"
+               ],
+               "summary":"This paragraph of text should be no longer than 150 characters including spaces. It can be used to summarize the above bullet points to emphasize."
+            },
+            {
+               "type":"ImageTagsText",
+               "imageURL":"https://picsum.photos/id/1040/1000",
+               "title":"Lorem ipsum dolor sit amet orci aliquam.",
+               "tags":[
+                  "THIS IS A SPACE FOR 40 CHARACTERS MAX",
+                  "THERE IS A LIMIT OF 6 TAGS",
+                  "THEY WRAP IN SPACE",
+                  "LIKE THIS",
+                  "STRONG COMMUNICATION SKILLS",
+                  "INTERPERSONAL SKILLS"
+               ],
+               "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ante eu aliquet pellentesque. Nunc rhoncus sapien sed nibh vestibulum augue."
+            },
+            {
+               "type":"Roadmap",
+               "title":"This title has a limit of 40 characters",
+               "id":"something",
+               "moments":[
+                  {
+                     "date":"1999",
+                     "iconUrl":"https://images.vexels.com/media/users/3/140908/isolated/preview/bdc30bbe3c022a11e2d7fd0e642c61ae-open-book-icon-by-vexels.png",
+                     "description":"'The Matrix' came out in theatres, and the first 30 minutes of it went down in history as the some of the greatest in action sci-fi film history. Downhill from there."
+                  },
+                  {
+                     "date":"2001",
+                     "iconUrl":"https://images.vexels.com/media/users/3/140908/isolated/preview/bdc30bbe3c022a11e2d7fd0e642c61ae-open-book-icon-by-vexels.png",
+                     "description":"The film 'Rat Race' was a lighthearted romp that included commentary on consumer culture and how there is no such thing as altruism."
+                  },
+                  {
+                     "date":"2001",
+                     "iconUrl":"https://images.vexels.com/media/users/3/140908/isolated/preview/bdc30bbe3c022a11e2d7fd0e642c61ae-open-book-icon-by-vexels.png",
+                     "description":"'Shrek' also came out I am pretty sure.'"
+                  },
+                  {
+                     "date":"2003",
+                     "iconUrl":"https://images.vexels.com/media/users/3/140908/isolated/preview/bdc30bbe3c022a11e2d7fd0e642c61ae-open-book-icon-by-vexels.png",
+                     "description":"'The Matrix: Reloaded' came out, letting down tons of fans by devolving into a formulaic blockbuster with a pretty lame religious allegory."
+                  },
+                  {
+                     "date":"2003",
+                     "iconUrl":"https://images.vexels.com/media/users/3/140908/isolated/preview/bdc30bbe3c022a11e2d7fd0e642c61ae-open-book-icon-by-vexels.png",
+                     "description":"'The Matrix: Revolutions' came out a few months later, which is very odd. It was the worst of the trilogy."
+                  },
+                  {
+                     "date":"Now",
+                     "iconUrl":"https://images.vexels.com/media/users/3/140908/isolated/preview/bdc30bbe3c022a11e2d7fd0e642c61ae-open-book-icon-by-vexels.png",
+                     "description":"Chillin."
+                  }
+               ]
+            }
+         ],
+         "badgeURL":"https://i.ibb.co/FH5jQnh/Group-3486-3x.png",
+         "success":"",
+         "cost":100,
+         "duration":500,
+         "star":1
+      },
+      {
+         "id":"mt_janedoe-badge-1-activity-0",
+         "intro":{
+            "imageURL":"https://picsum.photos/id/1062/1000",
+            "title":"Jane Doe",
+            "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci."
+         },
+         "templates":[
+            {
+               "type":"ImageTagsText",
+               "imageURL":"https://picsum.photos/id/1080/1000",
+               "title":"Lorem ipsum dolor sit amet orci aliquam.",
+               "tags":[
+                  "THIS IS A SPACE FOR 40 CHARACTERS MAX",
+                  "THEY WRAP IN SPACE",
+                  "LIKE THIS",
+                  "STRONG COMMUNICATION SKILLS",
+                  "INTERPERSONAL SKILLS"
+               ],
+               "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt ante eu aliquet pellentesque. Nunc rhoncus sapien sed nibh vestibulum augue."
+            },
+            {
+               "type":"ImageBulletText",
+               "imageURL":"https://picsum.photos/id/1074/1000",
+               "title":"This title has a limit of 40 characters",
+               "bullets":[
+                  "And key points",
+                  "Lorem ipsum dolor sit gravida.",
+                  "Enjoy",
+                  "There are 6 bullets max",
+                  "They are for strengths"
+               ],
+               "summary":"This paragraph of text should be no longer than 150 characters including spaces. It can be used to summarize the above bullet points to emphasize."
+            }
+         ],
+         "badgeURL":"https://i.ibb.co/s2NFxsg/Group-2908-3x.png",
+         "success":"",
+         "cost":100,
+         "duration":500,
+         "star":1
+      },
+      {
+         "id":"mt_elvis-badge-1-activity-0",
+         "intro":{
+            "imageURL":"https://picsum.photos/id/1084/1000",
+            "title":"Elvis Presley",
+            "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci."
+         },
+         "templates":[
+            {
+               "type":"ImageText",
+               "imageURL":"https://picsum.photos/id/145/1000",
+               "title":"Lorem ipsum dolor sit amet orci aliquam.",
+               "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis lacus id nulla dictum auctor. Orci varius natoque"
+            },
+            {
+               "type":"BubblesText",
+               "title":"Lorem ipsum dolor sit amet orci aliquam.",
+               "bubbles":[
+                  {
+                     "title":"Team Player",
+                     "imageURL":"https://picsum.photos/id/142/1000"
+                  },
+                  {
+                     "title":"20 characters max",
+                     "imageURL":"https://picsum.photos/id/1083/1000"
+                  },
+                  {
+                     "title":"Critical Thinking",
+                     "imageURL":"https://picsum.photos/id/44/1000"
+                  },
+                  {
+                     "title":"Leadership",
+                     "imageURL":"https://picsum.photos/id/90/1000"
+                  },
+                  {
+                     "title":"Patience",
+                     "imageURL":"https://picsum.photos/id/998/1000"
+                  },
+                  {
+                     "title":"Knowledgeable",
+                     "imageURL":"https://picsum.photos/id/650/1000"
+                  }
+               ],
+               "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis lacus id nulla dictum auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas vehicula dapibus ipsum vitae posuere. Suspendisse vestibulum orci risus, in hendrerit arcu tincidunt a. Donec porta est sed metus porta, non ultrices urna laoreet. Pellentesque luctus tellus sit amet massa pretium, in interdum sem laoreet. In sagittis leo et facilisis dictum. Sed odio ex orci aliquam."
+            }
+         ],
+         "badgeURL":"https://i.ibb.co/vBSPwNg/Group-3245-3x.png",
+         "success":"",
+         "cost":100,
+         "duration":500,
+         "star":1
+      }
+   ]
+}
