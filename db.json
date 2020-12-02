@@ -15,7 +15,7 @@
                "imageUrl":"https://picsum.photos/id/1006/1000",
                "locked": false,
                "completedActivities":2,
-               "totalActivities":2,
+               "totalActivities":2
             },            
             {
                "id":"module-2-category-1",
@@ -23,7 +23,7 @@
                "imageUrl":"https://picsum.photos/id/1003/1000",
                "locked": true,
                "completedActivities":0,
-               "totalActivities":2,
+               "totalActivities":2
             }
          ]
       },
@@ -52,7 +52,7 @@
                  "imageURL":"https://picsum.photos/id/1084/1000",
                  "locked":false,
                  "completedActivities":2,
-                  "totalActivities":2,
+                  "totalActivities":2
               }
            ]
        }
