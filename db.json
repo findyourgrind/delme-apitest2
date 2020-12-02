@@ -185,7 +185,12 @@
                   }
                ],
                "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis lacus id nulla dictum auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas vehicula dapibus ipsum vitae posuere. Suspendisse vestibulum orci risus, in hendrerit arcu tincidunt a. Donec porta est sed metus porta, non ultrices urna laoreet. Pellentesque luctus tellus sit amet massa pretium, in interdum sem laoreet. In sagittis leo et facilisis dictum. Sed odio ex orci aliquam."
-            }
+            },
+            {
+               "title": "Test Discovery Template",
+               "type": "DiscoveryTemplate",
+               "chatBotStoryId": "5f2b1ba174b9c20007d36a8a"
+           }
          ],
          "badgeURL":"https://i.ibb.co/vBSPwNg/Group-3245-3x.png",
          "success":"",
