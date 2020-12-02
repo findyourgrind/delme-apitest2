@@ -1,0 +1,560 @@
+{
+  "story": {
+    "id": "5f3d81d42c90f000077574cc",
+    "name": "FYG - Discovery SA_T_PD",
+    "description": "Talents: Performing Arts - Dance",
+    "order": [
+      "5f3d81d42c90f000077574cd"
+    ],
+    "integrations": [
+      "widget"
+    ],
+    "interactions": {
+      "5f3d81d42c90f000077574cd": {
+        "id": "5f3d81d42c90f000077574cd",
+        "name": "Q1",
+        "root": true,
+        "references": [],
+        "contextOut": [
+          "5f3d81d42c90f000077574ce"
+        ],
+        "hasFallback": false,
+        "response": {
+          "rich": true,
+          "end": false,
+          "message": "What do you feel like you ENJOY most and do BEST from the following choices?"
+        }
+      },
+      "5f3d81d42c90f000077574ce": {
+        "id": "5f3d81d42c90f000077574ce",
+        "name": "Q2",
+        "root": false,
+        "references": [],
+        "contextOut": [
+          "5f3d81d42c90f000077574cf"
+        ],
+        "hasFallback": false,
+        "userSays": "Ballroom Dancing",
+        "response": {
+          "rich": true,
+          "end": false,
+          "message": "Nice! 🙌"
+        }
+      },
+      "5f3d81d42c90f000077574cf": {
+        "id": "5f3d81d42c90f000077574cf",
+        "name": "Q3",
+        "root": false,
+        "references": [],
+        "contextOut": [
+          "5f3d81d42c90f000077574d0",
+          "5f3d81d42c90f000077574d1",
+          "5f3d81d42c90f000077574d2"
+        ],
+        "hasFallback": false,
+        "userSays": "With a Partner",
+        "response": {
+          "rich": true,
+          "end": false,
+          "message": "Ok! Last question before you discover your talent!"
+        }
+      },
+      "5f3d81d42c90f000077574d0": {
+        "id": "5f3d81d42c90f000077574d0",
+        "name": "Success (Physical Coordination)",
+        "root": false,
+        "references": [],
+        "contextOut": [],
+        "hasFallback": false,
+        "userSays": "Coordination",
+        "response": {
+          "rich": true,
+          "end": false,
+          "message": "Great Job! You've discovered a talent!"
+        }
+      },
+      "5f3d81d42c90f000077574d1": {
+        "id": "5f3d81d42c90f000077574d1",
+        "name": "Success (Create & Choregraph)",
+        "root": false,
+        "references": [],
+        "contextOut": [],
+        "hasFallback": false,
+        "userSays": "Create & Choregraph",
+        "response": {
+          "rich": true,
+          "end": false,
+          "message": "Great Job! You've discovered a talent!"
+        }
+      },
+      "5f3d81d42c90f000077574d2": {
+        "id": "5f3d81d42c90f000077574d2",
+        "name": "Success (Spatial Awareness)",
+        "root": false,
+        "references": [],
+        "contextOut": [],
+        "hasFallback": false,
+        "userSays": "Spatial Awareness",
+        "response": {
+          "rich": true,
+          "end": false,
+          "message": "Great Job! You've discovered a talent!"
+        }
+      }
+    }
+  },
+  "interactions": [
+    {
+      "type": "welcome",
+      "name": "Welcome Interaction",
+      "action": "default.welcome",
+      "enabled": true,
+      "parameters": [],
+      "responses": [
+        {
+          "type": "text",
+          "filters": [],
+          "delay": 100,
+          "elements": [
+            "Hi! Are you ready to discover your talent in Performance Arts & Dance?"
+          ]
+        },
+        {
+          "type": "text",
+          "elements": [
+            "Let's get started. 💃"
+          ],
+          "filters": [],
+          "delay": 2000
+        },
+        {
+          "type": "goto",
+          "interactionId": "5f3d81d42c90f000077574cd",
+          "filters": []
+        }
+      ]
+    },
+    {
+      "id": "5f3d81d42c90f000077574cd",
+      "name": "Q1",
+      "action": "",
+      "userSays": [],
+      "triggers": [],
+      "parameters": [],
+      "responses": [
+        {
+          "type": "text",
+          "elements": [
+            "What do you feel like you ENJOY most and do BEST from the following choices?"
+          ],
+          "filters": [],
+          "delay": 2000
+        },
+        {
+          "type": "cards",
+          "elements": [
+            {
+              "title": "Ballroom Dancing",
+              "subtitle": "",
+              "imageUrl": "https://unsplash.com/photos/0E6qNdwB4r0/download?force=true&w=640",
+              "buttons": [
+                {
+                  "id": "8d0cea72-663e-4c58-982f-b301281455d7",
+                  "type": "postback",
+                  "title": "Ballroom Dancing",
+                  "value": "",
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "title": "Traditional Jazz Dancing",
+              "subtitle": "",
+              "imageUrl": "https://unsplash.com/photos/VtJtaz_rXxI/download?force=true&w=640",
+              "buttons": [
+                {
+                  "id": "0042059c-a1eb-4e66-99d4-0450365d4ff3",
+                  "type": "postback",
+                  "title": "Traditional Jazz",
+                  "value": "",
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "title": "Performance Dance",
+              "subtitle": "Ballet, Contempory, Concert, Tap, etc.)",
+              "imageUrl": "https://unsplash.com/photos/n-g7dgwNZg4/download?force=true&w=640",
+              "buttons": [
+                {
+                  "id": "57977661-b801-46a0-8b95-c81a16617d88",
+                  "type": "postback",
+                  "title": "Performance Dance",
+                  "value": "",
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "title": "Modern Dance",
+              "subtitle": "",
+              "imageUrl": "https://unsplash.com/photos/0S4drpmfx9M/download?force=true&w=640",
+              "buttons": [
+                {
+                  "id": "a966843b-a330-4a9f-832b-42ebeb1bbc86",
+                  "type": "postback",
+                  "title": "Modern Dance",
+                  "value": "",
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "title": "Hip-Hop & Funk Dance",
+              "subtitle": "",
+              "imageUrl": "https://unsplash.com/photos/YMT2OTm5Zos/download?force=true&w=640",
+              "buttons": [
+                {
+                  "id": "a00acf90-a6bc-4db2-9efe-681b8b58aa82",
+                  "type": "postback",
+                  "title": "Hip-Hop & Funk",
+                  "value": "",
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "title": "Line Dancing",
+              "subtitle": "",
+              "imageUrl": "https://unsplash.com/photos/KPkIpGg-GFE/download?force=true&w=640",
+              "buttons": [
+                {
+                  "id": "aeda4128-2341-4990-81fb-cb7cf4d31702",
+                  "type": "postback",
+                  "title": "Line Dancing",
+                  "value": "",
+                  "actions": []
+                }
+              ]
+            }
+          ],
+          "filters": [],
+          "delay": 2500
+        }
+      ]
+    },
+    {
+      "id": "5f3d81d42c90f000077574ce",
+      "name": "Q2",
+      "action": "",
+      "userSays": [
+        {
+          "classifier": "ml",
+          "text": "Ballroom Dancing"
+        },
+        {
+          "classifier": "ml",
+          "text": "Traditional Jazz"
+        },
+        {
+          "classifier": "ml",
+          "text": "Performance Dance"
+        },
+        {
+          "classifier": "ml",
+          "text": "Modern Dance"
+        },
+        {
+          "classifier": "ml",
+          "text": "Hip-Hop & Funk"
+        },
+        {
+          "classifier": "ml",
+          "text": "Line Dancing"
+        }
+      ],
+      "triggers": [],
+      "parameters": [],
+      "responses": [
+        {
+          "type": "text",
+          "elements": [
+            "Nice! 🙌",
+            "Cool! 😎"
+          ],
+          "filters": [],
+          "delay": 2000
+        },
+        {
+          "type": "button",
+          "title": "Choose how you ENJOY to perform dance from the following:",
+          "buttons": [
+            {
+              "id": "3258075a-ceb4-4e62-a983-b36b8408cf4a",
+              "type": "postback",
+              "title": "With a Partner",
+              "value": "",
+              "actions": []
+            },
+            {
+              "id": "fc008dad-7d73-4d29-961b-be98753e22c5",
+              "type": "postback",
+              "title": "With a Team/Group",
+              "value": "",
+              "actions": []
+            },
+            {
+              "id": "60f53473-69d3-446c-8102-ec293a93216e",
+              "type": "postback",
+              "title": "Solo Dance",
+              "value": "",
+              "actions": []
+            }
+          ],
+          "filters": [],
+          "delay": 1000
+        }
+      ]
+    },
+    {
+      "id": "5f3d81d42c90f000077574cf",
+      "name": "Q3",
+      "action": "",
+      "userSays": [
+        {
+          "classifier": "ml",
+          "text": "With a Partner"
+        },
+        {
+          "classifier": "ml",
+          "text": "With a Team/Group"
+        },
+        {
+          "classifier": "ml",
+          "text": "Solo Dance"
+        }
+      ],
+      "triggers": [],
+      "parameters": [],
+      "responses": [
+        {
+          "type": "text",
+          "elements": [
+            "Ok! Last question before you discover your talent!"
+          ],
+          "filters": [],
+          "delay": 2000
+        },
+        {
+          "type": "text",
+          "elements": [
+            "Choose what you do BEST:"
+          ],
+          "filters": [],
+          "delay": 2000
+        },
+        {
+          "type": "cards",
+          "elements": [
+            {
+              "title": "Physical Coordination",
+              "subtitle": "",
+              "imageUrl": "https://unsplash.com/photos/PVyhz0wmHdo/download?force=true&w=640",
+              "buttons": [
+                {
+                  "id": "98777009-6d69-426c-bec8-082ea22042d6",
+                  "type": "postback",
+                  "title": "Coordination",
+                  "value": "",
+                  "actions": [
+                    {
+                      "type": "setAttributes",
+                      "elements": [
+                        {
+                          "name": "ls_analyzer",
+                          "value": "1"
+                        },
+                        {
+                          "name": "ls_competitor",
+                          "value": "1"
+                        },
+                        {
+                          "name": "ls_entertainer",
+                          "value": "1"
+                        },
+                        {
+                          "name": "sk_coordination",
+                          "value": "1"
+                        },
+                        {
+                          "name": "sk_physical",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Create & Choregraph",
+              "subtitle": "",
+              "imageUrl": "https://unsplash.com/photos/j9PpIy_x4EE/download?force=true&w=640",
+              "buttons": [
+                {
+                  "id": "1d06c7ab-480c-4ebe-97c0-0f8b6cf29b7a",
+                  "type": "postback",
+                  "title": "Create & Choregraph",
+                  "value": "",
+                  "actions": [
+                    {
+                      "type": "setAttributes",
+                      "elements": [
+                        {
+                          "name": "ls_creator",
+                          "value": "1"
+                        },
+                        {
+                          "name": "ls_innovator",
+                          "value": "1"
+                        },
+                        {
+                          "name": "ls_maker",
+                          "value": "1"
+                        },
+                        {
+                          "name": "sk_creativity",
+                          "value": "1"
+                        },
+                        {
+                          "name": "sk_design",
+                          "value": "1"
+                        },
+                        {
+                          "name": "sk_design_thinking",
+                          "value": "1"
+                        },
+                        {
+                          "name": "sk_innovation",
+                          "value": "1"
+                        },
+                        {
+                          "name": "fps_creativity",
+                          "value": "1"
+                        },
+                        {
+                          "name": "fps_innovation",
+                          "value": "1"
+                        },
+                        {
+                          "name": "sk_spatial_awareness",
+                          "value": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Spatial Awareness",
+              "subtitle": "",
+              "imageUrl": "https://unsplash.com/photos/nZU76qWy-T8/download?force=true&w=640",
+              "buttons": [
+                {
+                  "id": "b72add98-d23a-4b86-83f3-4901022732a3",
+                  "type": "postback",
+                  "title": "Spatial Awareness",
+                  "value": "",
+                  "actions": [
+                    {
+                      "type": "setAttributes",
+                      "elements": [
+                        {
+                          "name": "ls_entertainer",
+                          "value": "1"
+                        },
+                        {
+                          "name": "sk_spatial_awareness",
+                          "value": "1"
+                        },
+                        {
+                          "name": "sk_attention_to_detail",
+                          "value": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "filters": [],
+          "delay": 2000
+        }
+      ]
+    },
+    {
+      "id": "5f3d81d42c90f000077574d0",
+      "name": "Success (Physical Coordination)",
+      "action": "",
+      "userSays": [
+        {
+          "classifier": "ml",
+          "text": "Coordination"
+        }
+      ],
+      "triggers": [],
+      "parameters": [],
+      "responses": [
+        {
+          "type": "image",
+          "imageUrl": "https://media.giphy.com/media/l41lKFzpUyuHSK03S/giphy.gif",
+          "filters": [],
+          "delay": 2000
+        },
+        {
+          "type": "text",
+          "elements": [
+            "Great Job! You've discovered a talent!",
+            "Well done! You've discovered a talent!",
+            "Yes! You've discovered a talent!",
+            "Excellent! You've discovered a talent!",
+            "Nice! You've discovered a talent!",
+            "Sweet! You've discovered a talent!"
+          ],
+          "filters": [],
+          "delay": 1000
+        },
+        {
+          "type": "text",
+          "elements": [
+            "Physical Coordination: You have the ability to execute smooth, accurate and controlled body movements."
+          ],
+          "filters": [],
+          "delay": 1500
+        }
+      ]
+    },
+    {
+      "type": "fallback",
+      "name": "Fallback Interaction",
+      "action": "default.fallback",
+      "enabled": true,
+      "parameters": [],
+      "responses": [
+        {
+          "type": "text",
+          "filters": [],
+          "delay": 2000,
+          "elements": [
+            "One more time?",
+            "What was that?",
+            "I missed what you said. Say it again?",
+            "I don't understand, can you repeat?"
+          ]
+        }
+      ]
+    }
+  ]
+}
