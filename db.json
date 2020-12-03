@@ -105,8 +105,14 @@
             },
             {
                "title": "Test Discovery Template",
-               "type": "DiscoveryTemplate",
+               "type": "Discovery",
                "chatBotStoryId": "5f3d81d42c90f000077574cc.json"
+           },
+            {
+               "type": "Video",
+               "title": "Elvis Video",
+               "videoUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"
+               "thumbnailUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4"
            }
          ],
          "badgeURL":"https://i.ibb.co/vBSPwNg/Group-3245-3x.png",
