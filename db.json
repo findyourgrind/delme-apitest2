@@ -113,7 +113,30 @@
                "title": "Elvis Video",
                "videoUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4",
                "thumbnailUrl": "https://cdn.sanity.io/images/2ejqxsnu/production/9864b20d03db3537707913554e1b8fe67e423141-320x256.gif?w=800&fit=max&dpr=1"
-           }
+           },
+            {
+               "type":"Assessment",
+               "correctAnswerMessage": "Correct!",
+               "assesmentSUmmaryTitle": "Assessment Title",
+               "assessmentSummaryDescription": "Long text description",
+               "assessmentSummary":[
+                  {
+                     "type":"Paragraph"
+                  }
+               ],
+               "questions":[
+                  {
+                     "questionText":"Question 1?",
+                     "answers":[
+                        {
+                           "answerText":"Answer 1",
+                           "backgroundImageUrl": "https://picsum.photos/id/650/1000",
+                           "isCorrect": true
+                        }
+                     ]
+                  }
+               ]
+            }
          ],
          "badgeURL":"https://i.ibb.co/vBSPwNg/Group-3245-3x.png",
          "success":"",
