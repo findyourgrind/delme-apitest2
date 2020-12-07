@@ -113,17 +113,51 @@
                "title": "Elvis Video",
                "videoUrl": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4",
                "thumbnailUrl": "https://cdn.sanity.io/images/2ejqxsnu/production/9864b20d03db3537707913554e1b8fe67e423141-320x256.gif?w=800&fit=max&dpr=1"
-           },
+           }
+         ],
+         "badgeURL":"https://i.ibb.co/vBSPwNg/Group-3245-3x.png",
+         "success":"",
+         "cost":100,
+         "duration":500,
+         "star":1,
+         "totalStars":2
+      },
+      {
+         "id":"mt_elvis-badge-1-activity-1",
+         "intro":{
+            "imageURL":"https://picsum.photos/id/1084/1000",
+            "title":"Elvis Presley Assessment",
+            "summary":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci."
+         },
+         "templates":[           
             {
                "type":"Assessment",
                "correctAnswerMessage": "Correct!",
-               "assesmentSUmmaryTitle": "Assessment Title",
-               "assessmentSummaryDescription": "Long text description",
-               "assessmentSummary":[
-                  {
-                     "type":"Paragraph"
-                  }
-               ],
+               "assessmentSummary":{
+                  "title":"Assessment Title",
+                  "description":"Long text description",
+                  "items": [
+                     {
+                        "type":"Paragraph",
+                        "title":"Paragraph Title",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci."
+                     },
+                     {
+                        "type":"ImageAndText",
+                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci.",
+                        "imageUrl":"https://picsum.photos/id/1084/1000"
+                     },
+                     {
+                        "type":"bullets",
+                        "title":"Bullets Title",
+                        "bullets":[
+                           "bullet line 1",
+                           "bullet line 2",
+                           "bullet line 3"
+                        ]
+                     }
+                  ]
+               },
                "questions":[
                   {
                      "questionText":"Question 1?",
@@ -142,7 +176,8 @@
          "success":"",
          "cost":100,
          "duration":500,
-         "star":1
+         "star":2,
+         "totalStars":2
       }
    ]
 }
