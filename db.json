@@ -143,18 +143,14 @@
                         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci."
                      },
                      {
-                        "type":"ImageAndText",
-                        "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci.",
-                        "imageUrl":"https://picsum.photos/id/1084/1000"
+                        "type":"Paragraph",
+                        "title":"Paragraph Title",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci."
                      },
                      {
-                        "type":"bullets",
-                        "title":"Bullets Title",
-                        "bullets":[
-                           "bullet line 1",
-                           "bullet line 2",
-                           "bullet line 3"
-                        ]
+                        "type":"Paragraph",
+                        "title":"Paragraph Title",
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum dui est, eu mollis orci."
                      }
                   ]
                },
